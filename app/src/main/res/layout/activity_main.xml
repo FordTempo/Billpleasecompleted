@@ -1,0 +1,186 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/linearLayout"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/download"
+    android:backgroundTintMode="add"
+    android:orientation="vertical">
+
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="vertical">
+
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+
+            <TextView
+                android:id="@+id/textViewAmount"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="@string/amount"
+                android:textColor="#D4AF37"
+                android:textSize="25dp" />
+
+            <EditText
+                android:id="@+id/EditTextAmount"
+                android:layout_width="400dp"
+                android:layout_height="wrap_content"
+                android:backgroundTint="#D4AF37"
+                android:ems="10"
+                android:hint="Enter"
+                android:inputType="number"
+                android:textColor="#D4AF37"
+                android:textSize="25dp" />
+
+            <TextView
+                android:id="@+id/textViewPax"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="@string/pax"
+                android:textColor="#D4AF37"
+                android:textSize="25dp" />
+
+            <EditText
+                android:id="@+id/EditTextPax"
+                android:layout_width="400dp"
+                android:layout_height="wrap_content"
+                android:backgroundTint="#D4AF37"
+                android:ems="10"
+                android:hint="Enter"
+                android:inputType="number"
+                android:textColor="#D4AF37"
+                android:textSize="25dp" />
+
+            <LinearLayout
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal">
+
+                <ToggleButton
+                    android:id="@+id/togglesvsbtn"
+                    android:layout_width="193dp"
+                    android:layout_height="match_parent"
+                    android:layout_weight="1"
+                    android:textColor="#D4AF37"
+                    android:textOff="@string/Servicedisabled"
+                    android:textOn="@string/Serviceenabled"
+                    android:textSize="25dp" />
+
+                <ToggleButton
+                    android:id="@+id/togglegstbtn"
+                    android:layout_width="191dp"
+                    android:layout_height="match_parent"
+                    android:textColor="#D4AF37"
+                    android:textOff="@string/Taxdisabled"
+                    android:textOn="@string/Taxenabled"
+                    android:textSize="25dp" />
+            </LinearLayout>
+
+            <TextView
+                android:id="@+id/textViewdiscount"
+                android:layout_width="match_parent"
+                android:layout_height="53dp"
+                android:text="@string/discount"
+                android:textColor="#D4AF37"
+                android:textSize="25dp" />
+
+            <EditText
+                android:id="@+id/EditTextdiscount"
+                android:layout_width="400dp"
+                android:layout_height="wrap_content"
+                android:backgroundTint="#D4AF37"
+                android:ems="10"
+                android:hint="Enter"
+                android:inputType="number"
+                android:textColor="#D4AF37"
+                android:textSize="25dp" />
+
+            <RadioGroup
+                android:id="@+id/RadioGrouppayment"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal">
+
+                <RadioButton
+                    android:id="@+id/cash"
+                    android:layout_width="185dp"
+                    android:layout_height="match_parent"
+                    android:backgroundTint="#C0C0C0"
+                    android:text="@string/Cash"
+                    android:textColor="#D4AF37"
+                    android:textSize="25dp" />
+
+
+                <RadioButton
+                    android:id="@+id/paynow"
+                    android:layout_width="190dp"
+                    android:layout_height="match_parent"
+                    android:backgroundTint="#C0C0C0"
+                    android:text="@string/paynow"
+                    android:textColor="#D4AF37"
+                    android:textSize="25dp" />
+            </RadioGroup>
+
+            <LinearLayout
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal">
+
+                <ToggleButton
+                    android:id="@+id/togglesplit"
+                    android:layout_width="185dp"
+                    android:layout_height="match_parent"
+                    android:backgroundTint="#C0C0C0"
+                    android:textOn="Split"
+                    android:textOff="Split"
+                    android:textColor="#D4AF37"
+                    android:checked="false"
+                    android:textSize="25dp" />
+
+
+                <ToggleButton
+                    android:id="@+id/togglereset"
+                    android:layout_width="190dp"
+                    android:layout_height="match_parent"
+                    android:backgroundTint="#C0C0C0"
+                    android:textOn="Reset"
+                    android:textOff="Reset"
+                    android:textColor="#D4AF37"
+                    android:checked="false"
+                    android:textSize="25dp" />
+            </LinearLayout>
+
+            <TextView
+                android:id="@+id/textViewBill"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="@string/totalbill"
+                android:textColor="#D4AF37"
+                android:textSize="25dp" />
+
+
+
+            <TextView
+                android:id="@+id/textViewpay"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="@string/pay"
+                android:textColor="#D4AF37"
+                android:textSize="25dp" />
+
+        </LinearLayout>
+    </LinearLayout>
+</LinearLayout>
+
+
+
+
+
+

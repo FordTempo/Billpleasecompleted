@@ -1,0 +1,16 @@
+<resources>
+    <string name="app_name">Demo Simple Click</string>
+    <string name="Enter">Enter Something</string>
+    <string name="amount">Amount:</string>
+    <string name="pax">Pax:</string>
+    <string name="Button">Button</string>
+    <string name="Servicedisabled">Service</string>
+    <string name="Serviceenabled">Service</string>
+    <string name="Taxdisabled">GST</string>
+    <string name="Taxenabled">GST</string>
+    <string name="Cash">Cash</string>
+    <string name="paynow">Paynow</string>
+    <string name="discount">Discount (%)</string>
+    <string name="totalbill">Total Bill:</string>
+    <string name="pay">Each Pay:</string>
+</resources>
